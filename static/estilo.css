@@ -1,0 +1,30 @@
+body {
+    /* Color verde claro inspirado en el césped de la imagen */
+    background-color: #c4ef8a; 
+    
+    /* Reset de márgenes y tipografía */
+    margin: 0;
+    font-family: sans-serif;
+    color: #333; /* Un gris oscuro para que el texto sea legible */
+
+    /* Centrado total */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Opcional: añade un poco de estilo al contenedor para que resalte */
+div {
+    background-color: rgba(255, 255, 255, 0.6); /* Blanco semi-transparente */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+img {
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+}
